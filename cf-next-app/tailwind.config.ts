@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-25': 'linear-gradient(25deg, var(--tw-gradient-stops))',
+      },
+      screens: {
+        'xs': '320px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
